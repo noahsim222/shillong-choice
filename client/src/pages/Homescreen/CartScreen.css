@@ -1,0 +1,47 @@
+.fa-plus {
+  color: green;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.fa-minus {
+  color: red;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  color: red;
+}
+.flex-container {
+  margin: 10px;
+}
+
+.checkout {
+  /* border: solid 1px red; */
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 20px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.checkout:hover {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartitems {
+  /* margin-top: 10px; */
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cartdivmain {
+}

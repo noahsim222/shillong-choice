@@ -1,0 +1,33 @@
+{
+  "name": "shillong-choice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "an-old-hype": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^2.0.7",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "router": "^1.3.5",
+    "stripe": "^8.148.0",
+    "uuid": "^8.3.2"
+  }
+}

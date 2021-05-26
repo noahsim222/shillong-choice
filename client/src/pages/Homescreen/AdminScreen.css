@@ -1,0 +1,14 @@
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(3, 3, 58);
+}
+
+.adminfunctions li {
+  display: inline;
+}
+
+.adminfunctions li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}

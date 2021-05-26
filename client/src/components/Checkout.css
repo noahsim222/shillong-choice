@@ -1,0 +1,26 @@
+.btnn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
+  height: 7vh;
+  background-color: red;
+  color: white;
+
+  border: 0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+span {
+  color: rgb(7, 7, 7) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnn {
+    height: 4vh;
+  }
+  span {
+    color: rgb(7, 7, 7) !important;
+  }
+}
